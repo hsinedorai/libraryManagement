@@ -1,0 +1,39 @@
+
+
+
+<%-include('parts/navbar.ejs') %>
+
+
+<br><br><br><br><br><br><br><br>
+
+<div class="container">
+<form  method="POST" action="/register" > 
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="name" class="form-control" name="name" placeholder="name" />
+    </div>
+
+    <div class="form-outline mb-4">
+        <input type="text" id="email" class="form-control"  name="email" placeholder="email"/>
+      </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form2Example2" class="form-control" name="password" placeholder="password"/>
+    </div>
+  
+
+    <!-- Submit button -->
+    <button type="button" class="btn btn-primary btn-block mb-4">register</button>
+  
+  </form>
+
+</div>
+
+</div>
+
+
+
+
+
+<%- include('parts/footer.ejs')%>
